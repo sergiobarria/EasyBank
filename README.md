@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [URL here](https://easybank-sergiobarria.netlify.app/)
-- Live Site URL: [URL here](https://easybank-sergiobarria.netlify.app/)
+- Live Site URL: [URL here](https://www.frontendmentor.io/solutions/html-css-flexbox-and-css-grid-javascript-nfSzrc34F)
 
 ## My process
 
