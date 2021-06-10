@@ -221,6 +221,10 @@ nav {
 }
 
 @media screen and (min-width: 768px) {
+  header {
+    height: 5rem;
+  }
+
   .hamgurger-menu {
     display: none;
   }
@@ -252,7 +256,7 @@ nav {
     color: var(--color-gray-blue);
     font-weight: 300;
     font-size: 14px;
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
   }
 
   .nav-link:hover {
@@ -280,7 +284,7 @@ Hero Styles
 ====================
 */
 #hero-section {
-  min-height: 41rem;
+  min-height: 46rem;
 }
 
 .hero {
@@ -314,14 +318,14 @@ Hero Styles
 
 @media screen and (min-width: 768px) {
   #hero-section {
-    min-height: 41rem;
+    min-height: 46rem;
   }
 
   .hero {
-    height: 41rem;
+    height: 46rem;
     background-image: url("/images/bg-intro-desktop.svg");
-    background-position: right -250% top 60%;
-    background-size: 90%;
+    background-position: right -600% top 65%;
+    background-size: 95%;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
@@ -544,11 +548,18 @@ footer {
     height: 100%;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     justify-content: space-between;
+  }
+
+  .social-icons {
+    width: 100%;
+    justify-content: flex-start;
   }
 
   .social-icons a {
     margin-right: 0.5rem;
+    text-align: left;
   }
 
   .icon-img img:hover {
