@@ -308,6 +308,10 @@ Hero Styles
   margin: 1.5rem;
 }
 
+.hero-title {
+  font-size: 2.5rem;
+}
+
 @media screen and (min-width: 768px) {
   #hero-section {
     min-height: 41rem;
@@ -322,6 +326,10 @@ Hero Styles
     display: flex;
     align-items: center;
     position: relative;
+  }
+
+  .hero-title {
+    font-size: 3.5rem;
   }
 
   .hero-content {
