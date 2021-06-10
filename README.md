@@ -55,6 +55,6 @@ After finishing this project, I want to keep practicing images positioning. I th
 ## Author
 
 - Website - [Sergio Barria](https://www.sergiobarria.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/sergiobarria)
+- Frontend Mentor - [@sergiobarria](https://www.frontendmentor.io/profile/sergiobarria)
 - Twitter - [@sergioBarria01](https://www.twitter.com/sergioBarria01)
 
