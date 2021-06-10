@@ -41,6 +41,7 @@ Global Styles
 body {
   background-color: var(--color-gray-light);
   font-family: var(--ff-primary);
+  overflow-x: hidden;
 }
 
 ul {
@@ -280,7 +281,6 @@ Hero Styles
 */
 #hero-section {
   min-height: 41rem;
-  /* margin-bottom: 5.625rem; */
 }
 
 .hero {
@@ -327,6 +327,7 @@ Hero Styles
   .hero-content {
     width: 28rem;
     text-align: left;
+    margin: 0;
   }
 
   .hero-img-container {
