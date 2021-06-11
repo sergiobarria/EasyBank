@@ -1,21 +1,13 @@
 // GET HOLD OF BUTTOM
-const toggle = document.getElementById("mobile-nav-icon");
+const toggle = document.querySelector(".hamburger-menu");
 const modal = document.getElementById("modal");
 
 toggle.addEventListener("click", () => {
-  if (
-    toggle.src ===
-    "https://easybank-sergiobarria.netlify.app/images/icon-close.svg"
-  ) {
-    document["mobile-nav-icon"].src =
-      "https://easybank-sergiobarria.netlify.app/images/icon-hamburger.svg";
-    modal.classList.toggle("show-modal");
-  } else if (
-    toggle.src ===
-    "https://easybank-sergiobarria.netlify.app/images/icon-hamburger.svg"
-  ) {
-    document["mobile-nav-icon"].src =
-      "https://easybank-sergiobarria.netlify.app/images/icon-close.svg";
-    modal.classList.toggle("show-modal");
+  if (toggle.classList.value === "hamburger-menu") {
+    toggle.classList.value = "close-menu";
+    modal.classList.remove("show-modal");
+  } else if (toggle.classList.value === "close-menu") {
+    toggle.classList.value = "hamburger-menu";
+    modal.classList.add("show-modal");
   }
 });

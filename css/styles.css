@@ -187,12 +187,25 @@ nav {
 }
 
 .hamburger-menu {
-  z-index: 200;
+  background-image: url("/images/icon-hamburger.svg");
+  background-position: center center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  height: 2rem;
+  width: 2rem;
+}
+
+.close-menu {
+  background-image: url("/images/icon-close.svg");
+  background-position: center center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  height: 2rem;
+  width: 2rem;
 }
 
 .modal-nav {
   background-color: white;
-  /* margin-top: 5rem; */
   position: absolute;
   top: 5rem;
   left: 0;
@@ -225,7 +238,7 @@ nav {
     height: 5rem;
   }
 
-  .hamgurger-menu {
+  .hamburger-menu {
     display: none;
   }
 
@@ -256,15 +269,26 @@ nav {
     color: var(--color-gray-blue);
     font-weight: 300;
     font-size: 14px;
-    padding-bottom: 1.5rem;
+    position: relative;
+  }
+
+  .nav-link:hover::after {
+    content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    height: 5px;
+    background: linear-gradient(
+      to right,
+      var(--color-secondary),
+      var(--color-accent)
+    );
+    left: 0;
+    bottom: -30px;
   }
 
   .nav-link:hover {
-    border-bottom: 4px solid var(--color-secondary);
-  }
-
-  .active {
-    border-bottom: 4px solid var(--color-secondary);
+    color: var(--color-primary);
   }
 }
 
@@ -424,6 +448,7 @@ Featured Posts Styles
 
 .post-card-img {
   width: 100%;
+  object-fit: cover;
   height: 12.5rem;
 }
 
